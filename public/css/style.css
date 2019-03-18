@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.rang{
+    display: flex;
+    height: 150px;
+    margin: 12px 0;
+}
+.place{
+    width: 75px;
+    height: 75px;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 3px;
+    text-align: center;
+    background: url("../img/chaise.png") no-repeat ;
+    background-size: auto
+}
+
+h1{
+    display: block;
+    margin: auto 0;
+}
