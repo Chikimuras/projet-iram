@@ -9,6 +9,27 @@
     
 }
 
+
+
+.rang{
+    display: flex;
+    height: 100px;
+    margin: 5px 0;
+}
+.place{
+    width: 350px;
+    height: 100px;
+    border: solid black 1px;
+    padding: 10px;
+   /*border-radius: 50%;
+    */margin: 0 3px;
+    text-align: center;
+    /*background: url("../img/chaise.png") no-repeat ;
+    */background-size: auto
+}
+
+
+
 /* ****Headings**** */
 
 .headings{
@@ -68,30 +89,44 @@ select:focus{
 }
 /* ***Templating*** */
 .mapping{
+
     display: flex;
     background-color: #d4d4d4;
     padding: 0.75em
 }
 
 .blocs{
+     
     border: 1px solid black;
     margin: 0 1.5px;
     border-radius: 6px;
     background: white
+
 }
 
-#J020-main,#J021-main{
-    height: 500px;
+#J020-main{
+      height: 80%;
     width: 350px;
 }
-#J020-sub,#J021-sub{
-    width: 350px;
-    height: 250px;
+#J021-main{
+     
+    height: 100%;
+    width: 600px;
+}
+#J020-sub{
+   width:200px;
+    height: 100%; 
+}
+#J021-sub{
+     
+    width:100px;
+    height: 100%;
 }
 
 #couloir{
-    width: 75px;
-    height: 450px;
+     
+    width: 10%;
+    height: 600px;
     border-bottom: none;
     border-radius: 6px 6px 0 0;
     background: linear-gradient(180.12765834685877deg, rgba(99, 99, 99, 1) 3.122188905547233%, rgba(211, 211, 211, 1) 85.1311844077961%, rgba(212, 212, 212, 1) 85.1311844077961%)
